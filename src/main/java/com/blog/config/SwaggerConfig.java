@@ -22,7 +22,7 @@ public class SwaggerConfig {
 
     private ApiInfo getInfo1() {
 
-        return new ApiInfo("Blogger Application : Backend Course","This project develop by Tashfeen Kutub","1.0","Terms of service",
+        return new ApiInfo("Blogger Application : Frontend/Backend Course","This project develop by Tashfeen Kutub","1.0","Terms of service",
                 new Contact("Tashfeen","https://learncodewithdurgesh.com","ktashfeen35@gmail.com"),
                 "Licence of Apis","Api Licence Url", Collections.emptyList());
     }
