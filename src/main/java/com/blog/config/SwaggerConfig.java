@@ -17,10 +17,10 @@ public class SwaggerConfig {
     @Bean
     public Docket api(){
       return new Docket(DocumentationType.SWAGGER_2)
-              .apiInfo(getInfo()).select().apis(RequestHandlerSelectors.any()).paths(PathSelectors.any()).build();
+              .apiInfo(getInfo1()).select().apis(RequestHandlerSelectors.any()).paths(PathSelectors.any()).build();
     }
 
-    private ApiInfo getInfo() {
+    private ApiInfo getInfo1() {
 
         return new ApiInfo("Blogger Application : Backend Course","This project develop by Tashfeen Kutub","1.0","Terms of service",
                 new Contact("Tashfeen","https://learncodewithdurgesh.com","ktashfeen35@gmail.com"),
